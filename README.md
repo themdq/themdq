@@ -30,7 +30,7 @@ I hold a U.S. Green Card and thrive in agile teams, shipping scalable solutions 
 
 ## 🔭 Latest Projects
 
-- **[Online Cinema](https://github.com/themdq/online-cinema)**  
+- **[Online Cinema](https://github.com/themdq/graduate_work)**  
   Microservices platform (FastAPI, Kafka, Redis, PostgreSQL) with <150 ms API latency & 99.9% uptime.
 
 - **[Guess The Melody](https://gitlab.com/themdq/guess-the-melody)**  
