@@ -38,10 +38,4 @@ I hold a U.S. Green Card and thrive in agile teams, shipping scalable solutions 
 
 ---
 
-## 📈 GitHub Stats
-
-![Dmitrii’s GitHub stats](https://github-readme-stats.vercel.app/api?username=themdq&show_icons=true&theme=radical)
-
----
-
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=themdq.themqd)
