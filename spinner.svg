@@ -8,12 +8,11 @@
   </g>
 
   <!-- ping-pong spinner: ✦ ✢ * ✶ ✻ ✽ ✻ ✶ * ✢ (repeat) -->
-  <!-- 10 equal steps, 200 ms each, calcMode=discrete for instant frame switch -->
   <g font-family="ui-monospace,'Cascadia Code','Source Code Pro',Menlo,monospace"
-     font-size="15" text-anchor="middle" dominant-baseline="central" fill="#fff">
+     font-size="16" text-anchor="middle" fill="#fff">
 
     <!-- step 0 -->
-    <text x="13" y="14" opacity="1">✦
+    <text x="13" y="14" dominant-baseline="central" opacity="1">·
       <animate calcMode="discrete" attributeName="opacity"
                values="1;0;0;0;0;0;0;0;0;0"
                keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
@@ -21,7 +20,7 @@
     </text>
 
     <!-- steps 1 and 9 -->
-    <text x="13" y="14" opacity="0">✢
+    <text x="13" y="14" dominant-baseline="central" opacity="0">✢
       <animate calcMode="discrete" attributeName="opacity"
                values="0;1;0;0;0;0;0;0;0;1"
                keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
@@ -29,7 +28,7 @@
     </text>
 
     <!-- steps 2 and 8 -->
-    <text x="13" y="14" opacity="0">*
+    <text x="13" y="14" dominant-baseline="central" opacity="0">*
       <animate calcMode="discrete" attributeName="opacity"
                values="0;0;1;0;0;0;0;0;1;0"
                keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
@@ -37,7 +36,7 @@
     </text>
 
     <!-- steps 3 and 7 -->
-    <text x="13" y="14" opacity="0">✶
+    <text x="13" y="14" dominant-baseline="central" opacity="0">✶
       <animate calcMode="discrete" attributeName="opacity"
                values="0;0;0;1;0;0;0;1;0;0"
                keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
@@ -45,7 +44,7 @@
     </text>
 
     <!-- steps 4 and 6 -->
-    <text x="13" y="14" opacity="0">✻
+    <text x="13" y="14" dominant-baseline="central" opacity="0">✻
       <animate calcMode="discrete" attributeName="opacity"
                values="0;0;0;0;1;0;1;0;0;0"
                keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
@@ -53,7 +52,7 @@
     </text>
 
     <!-- step 5 only (turnaround point) -->
-    <text x="13" y="14" opacity="0">✽
+    <text x="13" y="14" dominant-baseline="central" opacity="0">✽
       <animate calcMode="discrete" attributeName="opacity"
                values="0;0;0;0;0;1;0;0;0;0"
                keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"

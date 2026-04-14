@@ -1,11 +1,6 @@
 # 👋 Hi, I’m Dmitrii Malashikhin | @themdq  
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/themdq)  
-[![Email](https://img.shields.io/badge/-dmitrii@malashikh.in-c14438?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dmitrii@malashikh.in)  
-
-<p align="center">
-  <img src="spinner.svg" alt="spinner" />
-</p>
+![spinner](spinner.svg)[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/themdq) [![Email](https://img.shields.io/badge/-dmitrii@malashikh.in-c14438?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dmitrii@malashikh.in) 
 
 ---
 
