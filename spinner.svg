@@ -1,0 +1,69 @@
+<svg width="152" height="28" viewBox="0 0 152 28" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="r">
+    <rect width="152" height="28" rx="4"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="26" height="28" fill="#1f2937"/>
+    <rect x="26" width="126" height="28" fill="#d97706"/>
+  </g>
+
+  <!-- ping-pong spinner: ✦ ✢ * ✶ ✻ ✽ ✻ ✶ * ✢ (repeat) -->
+  <!-- 10 equal steps, 200 ms each, calcMode=discrete for instant frame switch -->
+  <g font-family="ui-monospace,'Cascadia Code','Source Code Pro',Menlo,monospace"
+     font-size="15" text-anchor="middle" dominant-baseline="central" fill="#fff">
+
+    <!-- step 0 -->
+    <text x="13" y="14" opacity="1">✦
+      <animate calcMode="discrete" attributeName="opacity"
+               values="1;0;0;0;0;0;0;0;0;0"
+               keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
+               dur="2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- steps 1 and 9 -->
+    <text x="13" y="14" opacity="0">✢
+      <animate calcMode="discrete" attributeName="opacity"
+               values="0;1;0;0;0;0;0;0;0;1"
+               keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
+               dur="2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- steps 2 and 8 -->
+    <text x="13" y="14" opacity="0">*
+      <animate calcMode="discrete" attributeName="opacity"
+               values="0;0;1;0;0;0;0;0;1;0"
+               keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
+               dur="2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- steps 3 and 7 -->
+    <text x="13" y="14" opacity="0">✶
+      <animate calcMode="discrete" attributeName="opacity"
+               values="0;0;0;1;0;0;0;1;0;0"
+               keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
+               dur="2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- steps 4 and 6 -->
+    <text x="13" y="14" opacity="0">✻
+      <animate calcMode="discrete" attributeName="opacity"
+               values="0;0;0;0;1;0;1;0;0;0"
+               keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
+               dur="2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- step 5 only (turnaround point) -->
+    <text x="13" y="14" opacity="0">✽
+      <animate calcMode="discrete" attributeName="opacity"
+               values="0;0;0;0;0;1;0;0;0;0"
+               keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9"
+               dur="2s" repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+  <text x="89" y="14"
+        font-family="ui-monospace,'Cascadia Code','Source Code Pro',Menlo,monospace"
+        font-size="11" text-anchor="middle" dominant-baseline="central"
+        letter-spacing="0.5" fill="#fff">Combobulating...</text>
+</svg>
