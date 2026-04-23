@@ -1,6 +1,6 @@
-# 👋 Hi, I’m Dmitrii Malashikhin | @themdq  
+# Hi there, I’m Dmitrii Malashikhin | @themdq  
 
-![spinner](spinner.svg)[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/themdq) [![Email](https://img.shields.io/badge/-dmitrii@malashikh.in-c14438?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dmitrii@malashikh.in) 
+![spinner](spinner.svg)
 
 <pre>
 <code>
